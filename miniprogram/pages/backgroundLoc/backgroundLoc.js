@@ -14,7 +14,7 @@ Page({
         lastUpdateMilis: 0,
         lastReceiveLocTime: '',
         lastUpdateTime: '',
-        movingRouteLineData: { color: '#888888', width: 10, points: [{longitude: 116.29845, latitude: 39.95933},{longitude: 117.29, latitude: 38.95}] },
+        movingRouteLineData: { color: '#1961AC', width: 2, points: [] },
         locationList: []
     },
 
