@@ -3,3 +3,4 @@
 <view class="tips">LBS定位小插件将获取您的定位，提供地图展示、经纬度转换能力</view>
 <button class="mainbtn" bindtap="tomap">获取定位</button>
 <button class="mainbtn" bindtap="toBackgroundLocation">后台持续定位</button>
+<button class="mainbtn" bindtap="toWeRun">获取微信步数</button>

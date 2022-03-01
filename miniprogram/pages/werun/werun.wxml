@@ -1,0 +1,4 @@
+<!--pages/werun/werun.wxml-->
+<text>测试获取微信步数</text>
+<button class="mainbtn" bindtap="doWeixinLogin">微信登录认证获取信息</button>
+<button class="mainbtn" bindtap="fetchWeChatRunData">点击获取微信步数</button>

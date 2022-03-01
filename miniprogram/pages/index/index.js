@@ -10,6 +10,11 @@ Page({
       url: '../backgroundLoc/backgroundLoc'
     })
   },
+  toWeRun () {
+    wx.navigateTo({
+      url: '../werun/werun'
+    })
+  },
   onShareAppMessage () {
     return {
       title: '快来使用LBS定位小工具',

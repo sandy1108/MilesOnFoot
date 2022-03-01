@@ -2,14 +2,18 @@
     "pages": [
         "pages/index/index",
         "pages/map/map",
-        "pages/backgroundLoc/backgroundLoc"
+        "pages/backgroundLoc/backgroundLoc",
+        "pages/werun/werun"
     ],
     "permission": {
         "scope.userLocation": {
             "desc": "你的位置信息将用于小程序位置展示"
         },
         "scope.userLocationBackground": {
-            "desc": "小程序在后台时也将会获取你的位置信息，用于测试"
+            "desc": "小程序在后台时也将会获取你的位置信息"
+        },
+        "scope.werun": {
+            "desc": "您的微信运动步数数据将会共享给本应用"
         }
     },
     "window": {
@@ -20,5 +24,7 @@
     },
     "style": "v2",
     "sitemapLocation": "sitemap.json",
-    "requiredBackgroundModes": ["location"]
+    "requiredBackgroundModes": [
+        "location"
+    ]
 }
