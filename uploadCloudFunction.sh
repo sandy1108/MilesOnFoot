@@ -1,0 +1,1 @@
+"/Applications/wechatwebdevtools.app/Contents/MacOS/cli" cloud functions deploy --e cloud1-9gxf9wml77b688e2 --n lbs_server --r --project "/Users/zhangyipeng/CRECWork/WeChatProjects/MilesOnFoot" --report_first --report

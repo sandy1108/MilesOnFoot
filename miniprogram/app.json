@@ -1,0 +1,24 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/map/map",
+        "pages/backgroundLoc/backgroundLoc"
+    ],
+    "permission": {
+        "scope.userLocation": {
+            "desc": "你的位置信息将用于小程序位置展示"
+        },
+        "scope.userLocationBackground": {
+            "desc": "小程序在后台时也将会获取你的位置信息，用于测试"
+        }
+    },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "LBS定位测试",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "requiredBackgroundModes": ["location"]
+}

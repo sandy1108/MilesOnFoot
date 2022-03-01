@@ -1,0 +1,13 @@
+<!--pages/backgroundLoc.wxml-->
+<text>后台定位权限开启情况：{{permissionStatus}}</text>
+
+<button class="mainbtn" bindtap="requestPermission">申请后台权限</button>
+<button class="mainbtn" bindtap="startBackgroundLocationRecord">启动后台定位记录</button>
+<button class="mainbtn" bindtap="stopBackgroundLocationRecord">关闭后台定位记录</button>
+
+<view class="display-area">
+    <text>最近收到位置时间：{{lastReceiveLocTime}}</text>
+    <text>最近更新位置时间：{{lastUpdateTime}}</text>
+</view>
+
+<map class="map" longitude="{{longitude}}" latitude="{{latitude}}" show-location polyline="{{movingRouteLineData}}"></map>
